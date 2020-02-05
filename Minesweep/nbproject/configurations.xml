@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="97">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>GUI.h</itemPath>
+      <itemPath>Graph.h</itemPath>
+      <itemPath>Point.h</itemPath>
+      <itemPath>Simple_window.h</itemPath>
+      <itemPath>Window.h</itemPath>
+      <itemPath>std_lib_facilities.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>main.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+    <itemPath>GUI.cpp</itemPath>
+    <itemPath>Graph.cpp</itemPath>
+    <itemPath>Window.cpp</itemPath>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <commandlineTool>g++</commandlineTool>
+          <incDir>
+            <pElem>../../../../../MinGW/fltk-1.3.3</pElem>
+            <pElem>../../../../../MinGW/fltk-1.3.3/png</pElem>
+            <pElem>../../../../../MinGW/fltk-1.3.3/zlib</pElem>
+            <pElem>../../../../../MinGW/fltk-1.3.3/jpeg</pElem>
+          </incDir>
+          <commandLine>`C:/MinGW/fltk-1.3.3/fltk-config --cxxflags` -std=gnu++11</commandLine>
+        </ccTool>
+        <linkerTool>
+          <linkerLibItems>
+            <linkerLibLibItem>fltk</linkerLibLibItem>
+          </linkerLibItems>
+          <commandLine>`C:/MinGW/fltk-1.3.3/fltk-config --ldflags --use-images`</commandLine>
+        </linkerTool>
+      </compileType>
+      <item path="GUI.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="GUI.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Graph.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Graph.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Point.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Simple_window.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Window.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Window.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="std_lib_facilities.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="GUI.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="GUI.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Graph.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Graph.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Point.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Simple_window.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Window.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Window.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="std_lib_facilities.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
